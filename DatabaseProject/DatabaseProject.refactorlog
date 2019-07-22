@@ -7,4 +7,32 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="TemplafyLicenses" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="e6a30131-93bf-4255-9501-da021a80b963" ChangeDateTime="07/22/2019 15:03:04">
+    <Property Name="ElementName" Value="[dbo].[ModuleConfigurations].[SlideProofLicenses]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ModuleConfigurations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductivityTools" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d16661e4-4117-4370-8d7a-0d04fd4256d3" ChangeDateTime="07/22/2019 15:06:00">
+    <Property Name="ElementName" Value="[dbo].[ModuleConfigurations].[checkLincences]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ModuleConfigurations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CheckLincences" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="460609d1-6b1e-43d4-a0b2-36c8c4eda0eb" ChangeDateTime="07/22/2019 15:06:03">
+    <Property Name="ElementName" Value="[dbo].[ModuleConfigurations].[moduleLicenses]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ModuleConfigurations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ModuleLicenses" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3172a80e-35c5-41bb-8736-60b8e2610c52" ChangeDateTime="07/22/2019 15:20:48">
+    <Property Name="ElementName" Value="[dbo].[ModuleConfigurations].[CheckLincences]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ModuleConfigurations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CheckLicences" />
+  </Operation>
 </Operations>
