@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AshkanSirous\\source\\repos\\DatabaseProjectMigrationSample\\DatabaseProjectMigrationSample\\DatabaseProjectMigrationSample.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AshkanSirous\\source\\repos\\DatabaseProjectMigrationSample\\DatabaseProjectMigrationSample\\DatabaseProjectMigrationSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AshkanSirous\\source\\repos\\DatabaseProjectMigrationSample\\DatabaseProjectMigrationSample\\DatabaseProjectMigrationSample.csproj",
+        "projectName": "DatabaseProjectMigrationSample",
+        "projectPath": "C:\\Users\\AshkanSirous\\source\\repos\\DatabaseProjectMigrationSample\\DatabaseProjectMigrationSample\\DatabaseProjectMigrationSample.csproj",
+        "packagesPath": "C:\\Users\\AshkanSirous\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AshkanSirous\\source\\repos\\DatabaseProjectMigrationSample\\DatabaseProjectMigrationSample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AshkanSirous\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://templafy.pkgs.visualstudio.com/_packaging/Templafy/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
