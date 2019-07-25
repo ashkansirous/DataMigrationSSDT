@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Scripts\0001-Tenants.sql" />
+    <None Remove="Scripts\0002-ModuleConfigurations.sql" />
+    <None Remove="Scripts\0003-RenameSlideProofLicenses.sql" />
+    <None Remove="Scripts\0004-CreateTempColumn.sql" />
+    <None Remove="Scripts\0005-AlterModuleConfig.sql" />
+    <None Remove="Scripts\0006-Add Duplicate ModuleConfigurations.sql" />
+    <None Remove="Scripts\Script.PostDeploy-FillCheckLicences.sql" />
+    <None Remove="Scripts\Script0001-Tenants.sql" />
+    <None Remove="Scripts\Script0002-ModuleConfigurations.sql" />
+    <None Remove="Scripts\Script0003-RenameSlideProofLicenses.sql" />
+    <None Remove="Scripts\Script0004-CreateTempColumn.sql" />
+    <None Remove="Scripts\Script0005-AlterModuleConfig.sql" />
+    <None Remove="Scripts\Script06-Add Duplicate ModuleConfigurations.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\0001-Tenants.sql" />
+    <EmbeddedResource Include="Scripts\0002-ModuleConfigurations.sql" />
+    <EmbeddedResource Include="Scripts\0003-RenameSlideProofLicenses.sql" />
+    <EmbeddedResource Include="Scripts\0004-CreateTempColumn.sql" />
+    <EmbeddedResource Include="Scripts\0005-AlterModuleConfig.sql" />
+    <EmbeddedResource Include="Scripts\0006-Add Duplicate ModuleConfigurations.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DbUp" Version="4.2.0" />
+  </ItemGroup>
+
+</Project>
