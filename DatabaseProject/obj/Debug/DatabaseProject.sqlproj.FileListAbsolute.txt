@@ -1,5 +1,0 @@
-C:\Users\AshkanSirous\source\repos\DatabaseProjectMigrationSample\DatabaseProject\bin\Debug\DatabaseProject.dacpac
-C:\Users\AshkanSirous\source\repos\DatabaseProjectMigrationSample\DatabaseProject\bin\Debug\DatabaseProject.dll
-C:\Users\AshkanSirous\source\repos\DatabaseProjectMigrationSample\DatabaseProject\bin\Debug\DatabaseProject.pdb
-C:\Users\AshkanSirous\source\repos\DatabaseProjectMigrationSample\DatabaseProject\obj\Debug\DatabaseProject.dll
-C:\Users\AshkanSirous\source\repos\DatabaseProjectMigrationSample\DatabaseProject\obj\Debug\DatabaseProject.pdb
