@@ -4,14 +4,16 @@ using EFCodeFirst.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EFCodeFirst.Database.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    partial class DatabaseContextModelSnapshot : ModelSnapshot
+    [Migration("20190726080200_change-ModuleLincense-to-int")]
+    partial class changeModuleLincensetoint
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -23,11 +25,9 @@ namespace EFCodeFirst.Database.Migrations
                 {
                     b.Property<string>("Id");
 
-                    b.Property<int?>("CheckLincenses");
-
                     b.Property<int?>("ModuleLicenses");
 
-                    b.Property<int?>("ProductivityLicenses");
+                    b.Property<int?>("SlideProofLicenses");
 
                     b.Property<int?>("TemplafyLicences");
 
